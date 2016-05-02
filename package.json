@@ -1,7 +1,7 @@
 {
-  "name": "spotify-playlist-downloader",
+  "name": "node-spotify-downloader",
   "version": "0.1.4",
-  "description": "Download spotify playlists (from spotify)",
+  "description": "Download songs directly from Spotify!",
   "main": "main.js",
   "dependencies": {
     "async": "^0.9.0",
@@ -15,12 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lordmau5/spotify-playlist-downloader"
+    "url": "https://github.com/Lordmau5/node-spotify-downloader"
   },
-  "preferGlobal": false,
-  "bin": {
-    "spotify-playlist-downloader": "main.js",
-    "spd": "main.js"
-  },
-  "license": "MIT"
+  "preferGlobal": false
 }
